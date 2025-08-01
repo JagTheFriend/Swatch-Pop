@@ -33,7 +33,7 @@ export default function CustomNavbar() {
 		<Navbar
 			onMenuOpenChange={setIsMenuOpen}
 			classNames={{
-				base: cn("shadow-md", italiana.className),
+				base: cn(italiana.className, "bg-[#FFD8C2]"),
 			}}
 		>
 			<NavbarContent>
@@ -62,13 +62,23 @@ export default function CustomNavbar() {
 			</NavbarContent>
 			<NavbarContent justify="end">
 				<NavbarItem className="hidden lg:flex">
-					<Button as={Link} color="default" href="#" variant="flat">
-						Login
+					<Button
+						as={Link}
+						href="#"
+						variant="flat"
+						className={cn(italiana.className, "font-medium", "bg-white")}
+					>
+						LOGIN
 					</Button>
 				</NavbarItem>
 				<NavbarItem>
-					<Button as={Link} color="default" href="#" variant="flat">
-						Sign Up
+					<Button
+						as={Link}
+						href="#"
+						variant="flat"
+						className={cn(italiana.className, "font-medium", "bg-white")}
+					>
+						SIGN UP
 					</Button>
 				</NavbarItem>
 			</NavbarContent>
