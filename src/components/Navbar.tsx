@@ -2,6 +2,7 @@
 
 import {
 	Button,
+	cn,
 	Image,
 	Link,
 	Navbar,
@@ -13,11 +14,12 @@ import {
 	NavbarMenuToggle,
 } from "@heroui/react";
 import React from "react";
+import { italiana } from "~/fonts";
 
 export const BrandLogo = () => {
 	return (
 		<div className="flex items-center gap-2">
-			<Image src={"/logo.svg"} alt="Logo" height={999} width={999} />
+			<Image src={"/logo.svg"} alt="Logo" />
 		</div>
 	);
 };
@@ -31,7 +33,7 @@ export default function CustomNavbar() {
 		<Navbar
 			onMenuOpenChange={setIsMenuOpen}
 			classNames={{
-				base: "shadow-md",
+				base: cn("shadow-md", italiana.className),
 			}}
 		>
 			<NavbarContent>
