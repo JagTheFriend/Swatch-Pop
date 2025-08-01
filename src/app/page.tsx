@@ -2,6 +2,7 @@ import CustomNavbar from "~/components/Navbar";
 import About from "./_components/About";
 import Hero1 from "./_components/Hero1";
 import Hero2 from "./_components/Hero2";
+import Pallets from "./_components/Pallets";
 
 export default function HomePage() {
 	return (
@@ -11,6 +12,7 @@ export default function HomePage() {
 				<Hero1 />
 				<Hero2 />
 				<About />
+				<Pallets />
 			</main>
 		</>
 	);

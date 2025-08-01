@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@heroui/react";
 import { comfortaa, cormorantInfant } from "~/fonts";
 
