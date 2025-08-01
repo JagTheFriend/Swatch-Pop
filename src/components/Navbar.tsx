@@ -33,7 +33,7 @@ export default function CustomNavbar() {
 		<Navbar
 			onMenuOpenChange={setIsMenuOpen}
 			classNames={{
-				base: cn(italiana.className),
+				base: cn(italiana.className, "backdrop-blur-sm", "bg-white/70"),
 			}}
 		>
 			<NavbarContent>

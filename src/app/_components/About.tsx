@@ -6,7 +6,7 @@ import { comfortaa, cormorantInfant } from "~/fonts";
 export default function About() {
 	return (
 		<section
-			className="grid grid-cols-1 gap-5 py-20 md:grid-cols-2"
+			className="grid grid-cols-1 gap-5 px-10 py-20 md:grid-cols-2"
 			id="about%20us"
 		>
 			<div

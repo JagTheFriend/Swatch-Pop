@@ -5,7 +5,7 @@ import { cormorantInfant } from "~/fonts";
 
 export default function Hero1() {
 	return (
-		<div className="relative w-full bg-background pb-20">
+		<div className="relative w-full bg-background pb-32">
 			<section
 				id="home"
 				className={cn(
