@@ -6,9 +6,9 @@ export const WelcomeHero = () => {
 		<section
 			id="home"
 			className={cn(
-				"flex flex-col items-center justify-center gap-4 py-20",
 				cormorantInfant.className,
 				"font-semibold text-6xl",
+				"py-20",
 			)}
 		>
 			<p>Welcome to SwatchP</p>
