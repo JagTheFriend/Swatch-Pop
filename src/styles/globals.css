@@ -8,4 +8,29 @@
 	--font-sans:
 		var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+	--color-background: #ffd8c2;
+	--color-background-blurred: var(--color-white);
+}
+
+.shape-divider-1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.shape-divider-1 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 180px;
+	transform: rotateY(180deg);
+}
+
+.shape-divider-1 .shape-fill {
+	fill: #ffffff;
 }

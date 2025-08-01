@@ -11,7 +11,7 @@ export default function HomePage() {
 	return (
 		<>
 			<CustomNavbar />
-			<main className="flex flex-col items-center justify-center px-10">
+			<main className="flex flex-col items-center justify-center">
 				<Hero1 />
 				<Hero2 />
 				<About />
