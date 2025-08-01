@@ -16,8 +16,8 @@ export default function HomePage() {
 				<Hero1 />
 				<Hero2 />
 				<About />
-				<BallsDivider />
 				<Pallets />
+				<BallsDivider />
 				<CatchPhrase />
 				<LastHeader />
 			</main>
