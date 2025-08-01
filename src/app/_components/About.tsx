@@ -13,7 +13,8 @@ export default function About() {
 				className={cn(
 					cormorantInfant.className,
 					"font-bold",
-					"text-8xl",
+					"text-5xl",
+					"md:text-8xl",
 					"flex",
 					"justify-center",
 					"items-center",
@@ -24,7 +25,8 @@ export default function About() {
 			<p
 				className={cn(
 					comfortaa.className,
-					"text-4xl",
+					"text-lg",
+					"md:text-4xl",
 					"font-light",
 					"md:text-right",
 				)}
