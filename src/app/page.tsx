@@ -5,6 +5,7 @@ import CatchPhrase from "./_components/CatchPhrase";
 import Footer from "./_components/Footer";
 import Hero1 from "./_components/Hero1";
 import Hero2 from "./_components/Hero2";
+import LastHeader from "./_components/LastHeader";
 import Pallets from "./_components/Pallets";
 
 export default function HomePage() {
@@ -18,6 +19,7 @@ export default function HomePage() {
 				<BallsDivider />
 				<Pallets />
 				<CatchPhrase />
+				<LastHeader />
 			</main>
 			<Footer />
 		</>
