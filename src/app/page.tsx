@@ -1,5 +1,6 @@
 import CustomNavbar from "~/components/Navbar";
 import About from "./_components/About";
+import BallsDivider from "./_components/BallsDivider";
 import CatchPhrase from "./_components/CatchPhrase";
 import Footer from "./_components/Footer";
 import Hero1 from "./_components/Hero1";
@@ -14,6 +15,7 @@ export default function HomePage() {
 				<Hero1 />
 				<Hero2 />
 				<About />
+				<BallsDivider />
 				<Pallets />
 				<CatchPhrase />
 			</main>
