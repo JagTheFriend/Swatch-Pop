@@ -14,7 +14,7 @@ export default function Hero1() {
 					"py-20",
 				)}
 			>
-				<p>Welcome to SwatchP</p>
+				<p>Welcome to SwatchPop</p>
 			</section>
 			<div className="shape-divider-1">
 				<svg
