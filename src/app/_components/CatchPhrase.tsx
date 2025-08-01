@@ -5,7 +5,7 @@ import { cormorantSC } from "~/fonts";
 
 export default function CatchPhrase() {
 	return (
-		<section className="grid grid-cols-2 justify-items-center gap-4 pt-28">
+		<section className="grid grid-cols-2 justify-items-center gap-4 bg-[url('/bubbles.svg')] bg-cover px-10 pt-28">
 			<div
 				className={cn(
 					cormorantSC.className,
