@@ -30,7 +30,32 @@ export default function CatchPhrase() {
 					<Image src="/hand-bag.svg" alt="palette" />
 				</div>
 			</div>
-			<Image src="/img-row.svg" alt="img-row" />
+			<div className="grid grid-cols-1 items-center justify-items-center gap-3 md:grid-cols-4">
+				<div className="relative z-0">
+					<div className="-translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4 z-10 flex h-full w-full items-center justify-center font-semibold text-4xl text-white">
+						Clothes
+					</div>
+					<Image src="/imgs/1.svg" alt="img-1" className="-z-10 w-full" />
+				</div>
+				<div className="relative z-0">
+					<div className="-translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4 z-10 flex h-full w-full items-center justify-center font-semibold text-4xl text-white backdrop-blur-md">
+						Books
+					</div>
+					<Image src="/imgs/2.svg" alt="img-2" className="-z-10 w-full" />
+				</div>
+				<div className="relative z-0">
+					<div className="-translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4 z-10 flex h-full w-full items-center justify-center font-semibold text-4xl text-white backdrop-blur-md">
+						Home Decor
+					</div>
+					<Image src="/imgs/3.svg" alt="img-3" className="-z-10 w-full" />
+				</div>
+				<div className="relative z-0">
+					<div className="-translate-x-2/4 -translate-y-2/4 absolute top-2/4 left-2/4 z-10 flex h-full w-full items-center justify-center font-semibold text-4xl text-white backdrop-blur-md">
+						Stationaries
+					</div>
+					<Image src="/imgs/4.svg" alt="img-4" className="-z-10 w-full" />
+				</div>
+			</div>
 		</section>
 	);
 }
