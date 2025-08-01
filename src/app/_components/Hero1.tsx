@@ -1,7 +1,7 @@
 import { cn } from "@heroui/react";
 import { cormorantInfant } from "~/fonts";
 
-export const WelcomeHero = () => {
+export default function Hero1() {
 	return (
 		<section
 			id="home"
@@ -14,4 +14,4 @@ export const WelcomeHero = () => {
 			<p>Welcome to SwatchP</p>
 		</section>
 	);
-};
+}
