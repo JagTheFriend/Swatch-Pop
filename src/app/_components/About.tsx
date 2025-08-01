@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@heroui/react";
+import { div as MotionDiv, p as MotionP } from "framer-motion/client";
 import { comfortaa, cormorantInfant } from "~/fonts";
 
 export default function About() {
@@ -9,7 +10,10 @@ export default function About() {
 			className="grid grid-cols-1 gap-5 px-10 py-20 md:grid-cols-2"
 			id="about%20us"
 		>
-			<div
+			<MotionDiv
+				initial={{ x: -100 }}
+				whileInView={{ x: 0 }}
+				transition={{ duration: 1 }}
 				className={cn(
 					cormorantInfant.className,
 					"font-bold",
@@ -21,8 +25,11 @@ export default function About() {
 				)}
 			>
 				ABOUT US
-			</div>
-			<p
+			</MotionDiv>
+			<MotionP
+				initial={{ x: 100 }}
+				whileInView={{ x: 0 }}
+				transition={{ duration: 1 }}
 				className={cn(
 					comfortaa.className,
 					"text-lg",
@@ -38,7 +45,7 @@ export default function About() {
 				massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper
 				vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra
 				inceptos himenaeos.
-			</p>
+			</MotionP>
 		</section>
 	);
 }

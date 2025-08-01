@@ -1,12 +1,16 @@
 "use client";
 
 import { cn } from "@heroui/react";
+import { section as MotionSection } from "framer-motion/client";
 import { cormorantInfant } from "~/fonts";
 
 export default function Hero1() {
 	return (
 		<div className="relative w-full bg-background pb-32">
-			<section
+			<MotionSection
+				initial={{ opacity: 0 }}
+				whileInView={{ opacity: 1 }}
+				transition={{ duration: 1.5 }}
 				id="home"
 				className={cn(
 					cormorantInfant.className,
@@ -15,7 +19,7 @@ export default function Hero1() {
 				)}
 			>
 				<p>Welcome to SwatchPop</p>
-			</section>
+			</MotionSection>
 			<div className="shape-divider-1">
 				<svg
 					data-name="Layer 1"
