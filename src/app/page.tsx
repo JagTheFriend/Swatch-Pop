@@ -1,5 +1,6 @@
 import CustomNavbar from "~/components/Navbar";
 import About from "./_components/About";
+import CatchPhrase from "./_components/CatchPhrase";
 import Hero1 from "./_components/Hero1";
 import Hero2 from "./_components/Hero2";
 import Pallets from "./_components/Pallets";
@@ -13,6 +14,7 @@ export default function HomePage() {
 				<Hero2 />
 				<About />
 				<Pallets />
+				<CatchPhrase />
 			</main>
 		</>
 	);
