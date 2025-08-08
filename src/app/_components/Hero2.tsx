@@ -1,11 +1,17 @@
 "use client";
 
 import { Button, Image } from "@heroui/react";
+import { section as MotionSection } from "framer-motion/client";
 import { inter } from "~/fonts";
 
 export default function Hero2() {
 	return (
-		<section className="flex flex-col py-20">
+		<MotionSection
+			initial={{ filter: "blur(10px)" }}
+			whileInView={{ filter: "blur(0px)" }}
+			transition={{ duration: 1 }}
+			className="flex flex-col py-20"
+		>
 			<div className="flex flex-col items-center justify-center gap-20">
 				<Image src="/about.svg" alt="palette" />
 				<div className="flex flex-col items-center justify-center gap-4 md:flex-row">
@@ -17,6 +23,6 @@ export default function Hero2() {
 					</Button>
 				</div>
 			</div>
-		</section>
+		</MotionSection>
 	);
 }
